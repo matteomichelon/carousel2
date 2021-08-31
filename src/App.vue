@@ -33,8 +33,14 @@ html {
   color: #2c3e50;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
 }
 </style>
